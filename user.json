@@ -1,0 +1,115 @@
+[
+    {
+        "songs": {
+            "song0": {
+                "name": "Valley of the Shadows",
+                "loc": "/home/bingus/Documents/Programming/PyTunes/Music/Valley of the Shadows.flac"
+            },
+            "song1": {
+                "name": "rain eater",
+                "loc": "/home/bingus/Documents/Programming/PyTunes/Music/rain eater.mp3"
+            },
+            "song2": {
+                "name": "Shimmy Shimmy Ya",
+                "loc": "/home/bingus/Documents/Programming/PyTunes/Music/Shimmy Shimmy Ya.wav"
+            },
+            "song3": {
+                "name": "A Trip to Trumpton",
+                "loc": "/home/bingus/Documents/Programming/PyTunes/Music/A Trip to Trumpton.mp3"
+            },
+            "song4": {
+                "name": "Close Your Eyes (Cantina Cuts CC01)",
+                "loc": "/home/bingus/Documents/Programming/PyTunes/Music/Close Your Eyes (Cantina Cuts CC01).mp3"
+            },
+            "song5": {
+                "name": "BUTTERFLY EFFECT.mp3",
+                "loc": "/home/bingus/Documents/Programming/PyTunes/Music/BUTTERFLY EFFECT.mp3"
+            },
+            "song6": {
+                "name": "Golden Age of Life",
+                "loc": "/home/bingus/Documents/Programming/PyTunes/Music/Golden Age of Life.mp3"
+            },
+            "song7": {
+                "name": "Super Sharp Shooter",
+                "loc": "/home/bingus/Documents/Programming/PyTunes/Music/Super Sharp Shooter.flac"
+            },
+            "song8": {
+                "name": " We Are IE",
+                "loc": "/home/bingus/Documents/Programming/PyTunes/Music/ We Are IE.mp3"
+            }
+        },
+        "playlists": {
+            "playlist0": {
+                "name": "Choones",
+                "songs": [
+                    "song0",
+                    "song1",
+                    "song2",
+                    "song3",
+                    "song4",
+                    "song5",
+                    "song6",
+                    "song7",
+                    "song8"
+                ],
+                "icon": "/home/bingus/Documents/Programming/PyTunes/Images/playlist0_7f1feedb4b4944528cc3161f190534bc.png"
+            }
+        },
+        "settings": {
+            "darkMode": true,
+            "shuffle": false,
+            "loop": false,
+            "volume": 25.0,
+            "muted": true
+        },
+        "song_meta": {
+            "/home/bingus/Documents/Programming/PyTunes/Music/Valley of the Shadows.flac": {
+                "artist": "Origin Unknown",
+                "album": "Valley of the Shadows"
+            },
+            "/home/bingus/Documents/Programming/PyTunes/Music/rain eater.mp3": {
+                "artist": "ModReplay",
+                "album": ""
+            },
+            "/home/bingus/Documents/Programming/PyTunes/Music/Shimmy Shimmy Ya.wav": {
+                "artist": "Ol' Dirty Bastard",
+                "album": ""
+            },
+            "/home/bingus/Documents/Programming/PyTunes/Music/A Trip to Trumpton.mp3": {
+                "artist": "Urban Hype",
+                "album": "Four Most Cuts Presents - Rave"
+            },
+            "/home/bingus/Documents/Programming/PyTunes/Music/Close Your Eyes (Cantina Cuts CC01).mp3": {
+                "artist": "MickeyBeam75",
+                "album": ""
+            },
+            "/home/bingus/Documents/Programming/PyTunes/Music/BUTTERFLY EFFECT.mp3": {
+                "artist": "Rap Samurai",
+                "album": ""
+            },
+            "/home/bingus/Documents/Programming/PyTunes/Music/Golden Age of Life.mp3": {
+                "artist": "4hero",
+                "album": ""
+            },
+            "/home/bingus/Documents/Programming/PyTunes/Music/Super Sharp Shooter.flac": {
+                "artist": "DJ Zinc",
+                "album": "Further Adventures of a Bass Fanatic, Pt. 2"
+            },
+            "/home/bingus/Documents/Programming/PyTunes/Music/ We Are IE.mp3": {
+                "artist": "3dbully",
+                "album": ""
+            }
+        },
+        "song_lengths": {
+            "/home/bingus/Documents/Programming/PyTunes/Music/ We Are IE.mp3": 440.4,
+            "/home/bingus/Documents/Programming/PyTunes/Music/A Trip to Trumpton.mp3": 212.88,
+            "/home/bingus/Documents/Programming/PyTunes/Music/BUTTERFLY EFFECT.mp3": 190.944,
+            "/home/bingus/Documents/Programming/PyTunes/Music/Close Your Eyes (Cantina Cuts CC01).mp3": 350.088,
+            "/home/bingus/Documents/Programming/PyTunes/Music/Golden Age of Life.mp3": 375.096,
+            "/home/bingus/Documents/Programming/PyTunes/Music/rain eater.mp3": 204.6,
+            "/home/bingus/Documents/Programming/PyTunes/Music/Shimmy Shimmy Ya.wav": 225.61532879818594,
+            "/home/bingus/Documents/Programming/PyTunes/Music/Super Sharp Shooter.flac": 384.4207482993197,
+            "/home/bingus/Documents/Programming/PyTunes/Music/Valley of the Shadows.flac": 280.9730612244898
+        }
+    }
+]
