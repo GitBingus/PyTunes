@@ -5,6 +5,10 @@ __pycache__/
 instance/
 .vscode/
 .venv/
+gui beta.py
+gui copy.py
+py2exe.json
+user.json
 =======
 # Byte-compiled / optimized / DLL files
 __pycache__/
