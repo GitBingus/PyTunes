@@ -1,6 +1,4 @@
 """
-The main PyTunes code
-
 To see version, print __version__
 To see requirements, print __requirements__
 
