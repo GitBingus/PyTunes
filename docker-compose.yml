@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  PyTunes:
+    build:
+      context: .
+      args:
+        UID: ${LOCAL_UID:-1000}
+    volumes:
+      - .:/PyTunes          # bind mount your project into container for live edits
+      - /PyTunes/__pycache__ # optional: avoid caching to host
+    ports:
+      - "5000:5000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: ["python", "gui.py"]
