@@ -54,7 +54,7 @@ PygameAvailable = True
 from tinytag import TinyTag as tt # type: ignore
 
 NAME = 'PyTunes'
-__version__ = '1.0b4'
+__version__ = '1.0b3'
 
 
 """
