@@ -9,6 +9,9 @@ gui beta.py
 gui copy.py
 py2exe.json
 user.json
+.vscode/
+ASM/
+Other Files/
 =======
 # Byte-compiled / optimized / DLL files
 __pycache__/
