@@ -1508,9 +1508,11 @@ class showLibrary(ctk.CTkFrame):
                         )
 
                         # api_token = rq.request('get', f'https://ws.audioscrobbler.com/2.0/?method=auth.gettoken&api_key={API_KEY}&format=json').json()['token']
-                        artistRequest = rq.request('get', f'http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist={songData.artist}&api_key={API_KEY}&format=json').json()['artist']
+                        if API_KEY is not None:
+                            artistRequest = rq.request('get', f'http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist={songData.artist}&api_key={API_KEY}&format=json').json()
+                            print(artistRequest)
                         
-                        self.artistBio.configure(text=f"{''.join(artistRequest['bio']['content'].split('href=')[0]).replace('<a', '')}")
+                            self.artistBio.configure(text=f"{''.join(artistRequest['artist']['bio']['content'].split('href=')[0]).replace('<a', '')}")
 
                     
                 return _on_click
